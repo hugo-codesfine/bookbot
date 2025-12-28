@@ -1,8 +1,6 @@
 import sys
 from stats import count_words, count_characters, sorted_characters
 
-print(sys.argv)
-
 
 def get_book_text(path_to_file):
     with open(path_to_file, encoding="utf-8") as f:
