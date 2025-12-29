@@ -1,9 +1,9 @@
 # This function takes the content of a book as as string, 
 # splits its content into words and returns the number of words
 def count_words(book_string):
-    splitted_book = book_string.split()
-    book_word_count = len(splitted_book)
-    return book_word_count
+    words_list = book_string.split()
+    return len(words_list)
+
 
 def chars_count(book_as_string):
     character_dict = {}
